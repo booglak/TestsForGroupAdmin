@@ -1,11 +1,11 @@
 import requests
-import testdata.testdata as td
+import testdata.whichDataUse as wdu
 
 
 class GetData(object):
 
-    host = td.host_oleg
-    user = td.userAdmin_oleg
+    host = wdu.host
+    user = wdu.userAdmin
 
     def get_groups(self):
         req = requests.get(self.host + '/GroupService/20?organizationId=23',
@@ -28,7 +28,7 @@ class GetData(object):
         return req.json()
 
 
-g = GetData()
-print(g.get_groups())
-print(g.get_admin())
-print(g.get_usersgroup1_reserve())
+# g = GetData()
+# print(g.get_groups())
+# print(g.get_admin())
+# print(g.get_usersgroup1_reserve())

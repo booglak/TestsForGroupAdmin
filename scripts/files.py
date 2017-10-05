@@ -1,11 +1,11 @@
 import requests
-import testdata.testdata as td
+import testdata.whichDataUse as wdu
 
 
 class Files(object):
 
-    host = td.host_oleg
-    user = td.userAdmin_oleg
+    host = wdu.host
+    user = wdu.userAdmin
 
     def upload_timetable(self):
         req = requests.post(self.host + '/FileService/Timetable/600',
