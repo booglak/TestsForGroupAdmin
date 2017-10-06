@@ -7,7 +7,7 @@ class GroupActionsTest(unittest.TestCase):
 
     data = dt.GetData()
     group = ga.GActions()
-    group_id = 0
+    group_id = 1
 
     def createGroup(self):
         create = self.group.create_group()
