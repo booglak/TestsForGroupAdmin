@@ -1,5 +1,6 @@
 import requests
 import testdata.whichDataUse as wdu
+import json
 
 
 class GetData(object):
@@ -29,6 +30,9 @@ class GetData(object):
 
 
 # g = GetData()
+# string = g.get_groups()
 # print(g.get_groups())
+# print(string['data']['Values'][0]['Competence'])
+
 # print(g.get_admin())
 # print(g.get_usersgroup1_reserve())

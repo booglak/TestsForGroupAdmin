@@ -80,6 +80,6 @@ class GActions (object):
 
 
 
-a = GActions()
-print(a.create_group())
+# a = GActions()
+# print(a.create_group())
 
