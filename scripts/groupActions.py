@@ -76,7 +76,6 @@ class GActions (object):
         conn = _mssql.connect(server=self.dbhost, user=self.dbu, password=self.dbp, \
                               database=self.db)
         conn.execute_non_query('DELETE FROM [WorldSkills].[dbo].[Group] WHERE Id=' + str(group_id))
-        print("Group " + str(group_id) + " DELETED")
 
 
 
