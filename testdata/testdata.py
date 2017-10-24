@@ -24,3 +24,9 @@ dbHost_oleg = '188.227.72.198'
 dbUser_oleg = 'sa'
 dbPass_oleg = 'World.Skills_2017'
 db_oleg = 'WorldSkills'
+
+# db prod
+dbHost_prod = '5.200.52.142'
+dbUser_prod = 'sa'
+dbPass_prod = '*****************'
+db_prod = 'WorldSkills'

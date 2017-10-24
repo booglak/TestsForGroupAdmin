@@ -19,6 +19,7 @@ class Files(object):
                             headers={'Authorization': self.user,
                                      'Content-Type':'multipart/form-data'},
                             data={'file': open('sertificate.jpg', 'rb')})
+
         return req.json()
 
 
